@@ -5,9 +5,16 @@
     <link rel="stylesheet" href="assets/stylesheets/application.css">
     <script type="text/javascript" src="assets/javascripts/application.js">
     </script>
-    <title>Coloque aqui o título da sua página</title>
+    <title>Chat</title>
   </head>
   <body>
-    <h1>Alô, Mundo!</h1>
+    <h1>Converse com os grandes Programadores do IFPR</h1>
+    <textarea id="chat" name="chat" rows="20" cols="80" readonly>
+    </textarea>
+    <div id="areamensagem">
+      <input type="text" id="mensagem" value="" placeholder="Escreva aí mano véio">
+      <input type="submit" id="enviar" name="enviar">
+    </div>
+    <p id="echonome"></p>
   </body>
 </html>

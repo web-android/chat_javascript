@@ -15,3 +15,28 @@
   font-family: 'Vidaloka';
   src:  url('/assets/fonts/Vidaloka-Regular.ttf') format('truetype');
 }
+
+#chat {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+#mensagem{
+  display: inline-block;
+  width: 300px;
+  margin: auto;
+}
+
+#enviar {
+  position: absolute;
+  right: 0;
+}
+
+#areamensagem{
+  padding-top: 50px;
+  display: block;
+  width: 400px;
+  margin: 0 auto;
+  position: relative
+}
